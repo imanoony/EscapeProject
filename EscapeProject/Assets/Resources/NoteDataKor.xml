@@ -1,0 +1,10 @@
+<root>
+    <Note0>
+        <Title>첫 번째 일지</Title>
+        <Content>테스트용 내용 글이 들어갈 자리</Content>
+    </Note0>
+    <Note1>
+        <Title>두 번째 일지</Title>
+        <Content>테스트용 내용 글이 들어갈 자리</Content>
+    </Note1>
+</root>

@@ -1,0 +1,483 @@
+<?xml version = "1.0" encoding = "utf-8" standalone = "yes"?> <!-- addItem, removeItem -->
+<root>
+    <Default>
+        <ScriptInfo character = "N" script = "이미 조사했다."/>
+    </Default>
+    <!-- Map 1 -->
+    <Map10>
+        <Level0>
+            <ScriptInfo character = "A1" script = "낡은 에어컨이네. 가동시켰다간 위험할 정도로 먼지를 들이마시게 될 것 같은데."/>
+            <ScriptInfo character = "A1" script = "뭐... 손도 안 닿고, 리모컨도 보이지 않지만. 배수 호스도 너덜너덜해."/>
+            <ScriptInfo character = "A1" script = "날카로운 게 있다면 이 호스... 잘릴 수도 있겠어."/>
+            <ScriptInfo character = "A1" script = "그나저나 배수 호스에 뭔가 이상한 게 흐르는 것 같은 건... 기분탓인가?"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "자른 에어컨 호스에서 붉은색 액체가 흘러나온다."/>
+            <ScriptInfo character = "A1" script = "우왓! 이게 뭐야. 피?"/>
+            <ScriptInfo character = "A1" script = "어디서 나오고 있는 거야? 으아..."/>
+        </Level1>
+        <Level2>
+            <ScriptInfo character = "N" script = "'붉은 종이 공'을 획득했다." addItem = "3" removeItem = "1"/>
+        </Level2>
+    </Map10> 
+    <Map11>
+        <Level0>
+            <ScriptInfo character = "N" script = "안쪽에 열쇠 구멍이 있는 문이다."/>
+            <ScriptInfo character = "N" script = "굳게 잠겨 있다. 무슨 짓을 해봐도 열리지 않는다."/>
+            <ScriptInfo character = "A1" script = "꼼짝없이 갇혔어. 어서 빨리 탈출을......"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "'열쇠'는 문에 딱 맞았다." removeItem = "6" gameEvent = "Move0"/>
+        </Level1>
+    </Map11>
+    <Map12>
+        <Level0>
+            <ScriptInfo character = "A1" script = "귀여운 강아지 포스터야."/>
+            <ScriptInfo character = "A1" script = "귀여워......"/>
+            <ScriptInfo character = "A1" script = "가장자리에 뜯어진 자국이 보이는 것 같은데."/>
+            <ScriptInfo character = "N" script = "포스터는 벽에 단단히 고정되어 있어 잘 뜯기지 않는다."/>
+            <ScriptInfo character = "A1" script = "으윽, 팔에 통증이......"/>
+            <ScriptInfo character = "A1" script = "날카로운 무언가가 있다면 쉽게 뜯어낼 수 있을텐데."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "잘린 포스터 뒷편에서 뭔가 툭 떨어졌다."/>
+            <ScriptInfo character = "A1" script = "종이...? 정신없이 접혀 있는데, 한번 펴볼까..."/>
+            <ScriptInfo character = "N" script = "'분홍색 종이'를 획득했다." addItem = "1"/>
+            <ScriptInfo character = "A1" script = "아직 포스터 뒤에 뭔가 더 남아있는 것 같아."/>
+        </Level1>
+        <Level2>
+            <ScriptInfo character = "N" script = "포스터를 완전히 뜯어내자 얼굴이 나타났다."/>
+            <ScriptInfo character = "A0" script = "으... 으아아아아아아악!"/>
+            <ScriptInfo character = "A1" script = "사람? 사람인가...?"/>
+            <ScriptInfo character = "A1" script = "사람일리가 없지. 그렇다면 그림......? 왜 벽에 이렇게 얼굴만..."/>
+            <ScriptInfo character = "A1" script = "꽤 정교하잖아... 윽. 속이 안 좋아..."/>
+        </Level2>
+        <Level3>
+            <ScriptInfo character = "N" script = "벽에 붙어 있는 얼굴에 '사탕?'을 건네자 무언가 뱉어냈다." removeItem = "4"/>
+            <ScriptInfo character = "A1" script = "이건...!"/>
+            <ScriptInfo character = "N" script = "'열쇠'를 획득했다." addItem = "6"/>
+        </Level3>
+    </Map12>
+    <Map13>
+        <Level0>
+            <ScriptInfo character = "A1" script = "슬리퍼가 놓여있어. 응......?"/>
+            <ScriptInfo character = "A1" script = "바닥 옆면 부분에 갈라진 흔적이 있는 것 같... 어엇?"/>
+            <ScriptInfo character = "A1" script = "얇고 차가운 금속같은 게 만져져... 이게 뭐지?"/>
+            <ScriptInfo character = "N" script = "'의문의 카드'를 획득했다." addItem = "2"/>
+        </Level0>
+    </Map13>
+    <Map14>
+        <Level0>
+            <ScriptInfo character = "A1" script = "이건... 못이잖아? 우왓... 가까이 갔다간 위험하겠어."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "'붉은 종이 공'을 끼운 못 하나가 벽에서 헐겁게 빠져 나왔다." removeItem = "3"/>
+            <ScriptInfo character = "N" script = "'사탕?'을 획득했다." addItem = "4"/>
+        </Level1>
+    </Map14>
+    <Map15>
+        <Level0>
+            <ScriptInfo character = "N" script = "폭신폭신한 침대다."/>
+            <ScriptInfo character = "A1" script = "아무튼 편해 보인다. 조금만 누워 있을까..."/>
+            <ScriptInfo character = "A1" script = "......지금은 그럴 때가 아니지."/>
+            <ScriptInfo character = "A1" script = "그나저나 이불이 두꺼워. 안쪽에 뭐가 있는 걸까?"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "헤집어진 이불솜 사이에서 무언가 만져진다."/>
+            <ScriptInfo character = "A1" script = "이게 뭐지?"/>
+            <ScriptInfo character = "N" script = "'첫 번째 일지'를 획득했다." addItem = "5"/>
+        </Level1>
+    </Map15>
+    <Map16>
+        <Level0>
+            <ScriptInfo character = "A1" script = "창문이야. 밖은 전혀 보이지 않지만..."/>
+            <ScriptInfo character = "A1" script = "그래! 왜 이 생각을 못 했지? 구조 요청을 하는 거야."/>
+            <ScriptInfo character = "A0" script = "저기요! 거기 누구 없어요! 살려주세요! 여기 갇혔어요!"/>
+            <ScriptInfo character = "N" script = "......"/>
+            <ScriptInfo character = "N" script = "한참을 외쳐보았지만 달라지는 건 없었다."/>
+            <ScriptInfo character = "A0" script = "...그럼 그렇지."/>
+        </Level0>
+    </Map16>
+    <Map17>
+        <Level0>
+            <ScriptInfo character = "A1" script = "이건... 유용해 보이는데."/>
+            <ScriptInfo character = "N" script = "'가위'를 획득했다." addItem = "0"/>
+        </Level0>
+    </Map17>
+    <!-- Map 2 -->
+    <Map20>
+        <Level0>
+            <ScriptInfo character = "N" script = "반투명한 셔터가 내려가있다."/>
+            <ScriptInfo character = "N" script = "셔터 너머의 공간이 희미하게 눈에 들어온다."/>
+            <ScriptInfo character = "M0" script = "어이. 내 말 못들었어? 우린 여기 꼼짝없이 갇힌 거라고."/>
+            <ScriptInfo character = "M0" script = "괜히 까불지 않는 게 좋아. 어차피 힘으로는 못 여니까."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "셔터는 굉음과 함께 올라갔다." gameEvent = "Move1"/>
+        </Level1>
+    </Map20>
+    <Map21>
+        <Level0>
+            <ScriptInfo character = "A1" script = "숫자 1이 써져 있는 빨간색 문이야."/>
+            <ScriptInfo character = "A1" script = "공주 포스터가 덕지덕지 붙어 있어. 내가 초등학생 때 좋아하던 건데..."/>
+            <ScriptInfo character = "W3" script = "저기, 밖에 누구 있어? 나 좀 꺼내주지 않을래..."/>
+            <ScriptInfo character = "W3" script = "열쇠 가지고 있는 거 다 알거든..."/>
+            <ScriptInfo character = "A1" script = "...! 안에 누군가 있다."/>
+        </Level0>
+    </Map21>
+    <Map22>
+        <Level0>
+            <ScriptInfo character = "A1" script = "숫자 2가 써져 있는 빨간색 문이야."/>
+            <ScriptInfo character = "A1" script = "'X'표시가 크게 그려져 있어. 무슨 뜻일까......?"/>
+            <ScriptInfo character = "N" script = "문은 역시 열리지 않는다."/>
+            <ScriptInfo character = "M0" script = "이봐. 그 방엔 아무도 없다고."/>
+            <ScriptInfo character = "A1" script = "방 내부는 고요한 것 같아. 저 남자의 말대로 정말 아무도 없는 건가..."/>
+        </Level0>
+    </Map22>
+    <Map23>
+        <Level0>
+            <ScriptInfo character = "A1" script = "숫자 3이 써져 있는 빨간색 문이야."/>
+            <ScriptInfo character = "S3" script = "저기! 밖에 누구...... 꺼내주세요!!"/>
+            <ScriptInfo character = "A1" script = "......!! 안에 사람이 있어."/>
+            <ScriptInfo character = "M0" script = "설마 그 녀석을 꺼내줄 생각은 아니지? 헤헤..."/>
+            <ScriptInfo character = "A1" script = "저 보라색 의자 때문에 문을 못 여는 것 같은데... 어떻게 할까."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "A0" script = "저... 다시 열어보세요. 이제 열릴 거예요."/>
+            <ScriptInfo character = "N" script = "열린 문 사이로 누군가 나왔다." changeObject = "Shota"/>
+        </Level1>
+    </Map23>
+    <Map24>
+        <Level0>
+            <ScriptInfo character = "A1" script = "숫자 4가 써져 있는 빨간색 문이야."/>
+            <ScriptInfo character = "M0" script = "저기. 미안하지만 여긴 출입금지야."/>
+            <ScriptInfo character = "A0" script = "당신이 있었던 공간인가요?"/>
+            <ScriptInfo character = "M4" script = "......눈치 한번 빠르군."/>
+        </Level0>
+    </Map24>
+    <Map25>
+        <Level0>
+            <ScriptInfo character = "A1" script = "보라색 봉제 인형이야. 귀여워......"/>
+            <ScriptInfo character = "A1" script = "그런데 배 쪽이 터져 있어. 불쌍해. 아파 보여..."/>
+            <ScriptInfo character = "M3" script = "으윽. 너...... 설마 그걸 만질 생각은 아니지?"/>
+            <ScriptInfo character = "A0" script = "........."/>
+            <ScriptInfo character = "N" script = "터진 솜 사이로 손을 넣자 무언가 차갑고 딱딱한 게 만져진다."/>
+            <ScriptInfo character = "A0" script = "응? 이게 뭐지...?"/>
+            <ScriptInfo character = "N" script = "'순환 케이블'을 획득했다." addItem = "7"/>
+            <ScriptInfo character = "M2" script = "........."/>
+        </Level0>
+    </Map25>
+    <Map26>
+        <Level0>
+            <ScriptInfo character = "N" script = "천장에 동그란 의문의 두 덩어리가 달려 있다."/>
+            <ScriptInfo character = "A1" script = "......이게 뭐지?"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "천장에 달린 눈이 당신을 뚫어져라 바라보고 있다."/>
+        </Level1>
+    </Map26>
+    <Map27>
+        <Level0>
+            <ScriptInfo character = "N" script = "기다란 팻말같은 게 붙어 있다."/>
+            <ScriptInfo character = "A1" script = "글자인 것... 같은데. 읽을 수 없어. 무슨 뜻일까..."/>
+        </Level0>
+    </Map27>
+    <Map28>
+        <Level0>
+            <ScriptInfo character = "A1" script = "환풍구가 있어. 공기가 잘 순환되고 있는지는 모르겠지만......"/>
+            <ScriptInfo character = "N" script = "까치발을 들어보았지만 환풍구까지 손이 닿지 않았다."/>
+        </Level0>
+    </Map28>
+    <Map29>
+        <Level0>
+            <ScriptInfo character = "N" script = "의자를 쓰러뜨렸다." changeObject = "Door3"/>
+        </Level0>
+    </Map29>
+    <Map210> <!-- Man -->
+        <Level0> 
+            <ScriptInfo character = "M0" script = "섬뜩하지 않아? 벽에 저런 게 적혀 있으면."/>
+            <ScriptInfo character = "A0" script = "저런 거...?"/>
+            <ScriptInfo character = "M0" script = "'살려주세요'라고 적혀 있잖아. 누가 적었는진... 뭐, 안봐도 뻔하지만."/>
+            <ScriptInfo character = "A1" script = "안봐도 뻔하다니?"/>
+            <ScriptInfo character = "A0" script = "아무리 봐도 '살려주세요'는 아닌데요. 사용된 문자는 같지만..."/>
+            <ScriptInfo character = "M4" script = "영리한 줄 알았는데 이런 부분에선 꽤 멍청...... 아, 아니. 그래. 설명해주지."/>
+            <ScriptInfo character = "M0" script = "생각보다 간단해. 모음을 한 칸씩 앞으로 당긴 게 끝이거든."/>
+            <ScriptInfo character = "A0" script = "........."/>
+            <ScriptInfo character = "M0" script = "옛날에 어떤 사람이랑 저런 식으로 편지를 주고 받은 적이 있었어."/>
+            <ScriptInfo character = "M3" script = "저렇게... 문자 순서를 바꾸거나 해서 둘 만의 암호를 만든 거지. 물론 좀 더 복잡하게."/>
+            <ScriptInfo character = "M0" script = "너도 알겠지만 여기가 좀 그렇잖아. 암호를 만들지 않으면 문제가 생긴다고."/>
+            <ScriptInfo character = "A0" script = "당신은...... 이곳에 대해 잘 알고 있는 것처럼 말하네요."/>
+            <ScriptInfo character = "M0" script = "그거야 당연하지. 이 층에 방이 있다는 건........."/>
+            <ScriptInfo character = "A0" script = "......?"/>
+            <ScriptInfo character = "M3" script = "너 혹시, 여기가 어딘지 모르는 건... 아니지?"/>
+            <ScriptInfo character = "N" script = "나는 한동안 그에게 내 상황을 설명했다."/>
+            <ScriptInfo character = "M0" script = "......이거 놀라운데."/>
+            <ScriptInfo character = "M4" script = "기억을 다 잃어버렸다니. 그것도 이런 상황에서. 하핫!"/>
+            <ScriptInfo character = "M0" script = "재밌다, 너. 정말 재밌어......"/>
+            <ScriptInfo character = "A0" script = "그래서 여기가 어디죠? 저흰 왜... 이곳에 갇혀 있는 거죠?"/>
+            <ScriptInfo character = "M0" script = "하하... 그건 모르는 편이 나을 거야. 일단 탈출하는 데만 집중하자고."/>
+            <ScriptInfo character = "M4" script = "진상은 그 이후에 알아도 늦지 않으니까."/>
+            <ScriptInfo character = "M0" script = "뭐... 아무튼 읽기 어려운 무언가를 발견했다면 나한테 보여줘."/>
+            <ScriptInfo character = "M4" script = "내가 썼던 암호일 수도 있거든. 그렇다면 해석해줄게." changeObject = "Man"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "M4" script = "무슨 일이야?"/>
+        </Level1>
+    </Map210>
+    <Map211> <!-- Woman -->
+        <Level0>
+        </Level0>
+    </Map211>
+    <Map212> <!-- Shota -->
+        <Level0>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "S0" script = "다.....당신은"/>
+            <ScriptInfo character = "S0" script = "제 은인, 은인님 맞죠! 저를 여기서 꺼내주신 분 맞죠?"/>
+            <ScriptInfo character = "S1" script = "이대로 갇혀 꼼짝없이 죽는줄 알았는데. 정말 감사합니다... 감사합니다."/>
+            <ScriptInfo character = "A0" script = "아니에요. 전 그냥 의자만 치운 건데..."/>
+            <ScriptInfo character = "A1" script = "그리고 어차피 지금도 갇힌 건 마찬가지라고..."/>
+            <ScriptInfo character = "S3" script = "그러니까 그 의자가 말이죠. 전 원래 한참 전부터 나와 있었는데 그 사람이..."/>
+            <ScriptInfo character = "S2" script = "그 사람이 다시 저를 제 방에 가두고 의자로 문을 막아버린 거예요."/>
+            <ScriptInfo character = "A1" script = "'그 사람'이라면......"/>
+            <ScriptInfo character = "M3" script = "왜 날 쳐다봐?"/>
+            <ScriptInfo character = "A0" script = "당신이 이 사람을 가둔 건가요?"/>
+            <ScriptInfo character = "M4" script = "......아쉽지만 아니야. 뭐, 방관한 건 맞지만."/>
+            <ScriptInfo character = "S2" script = "........."/>
+            <ScriptInfo character = "S0" script = "아. 아무튼 은인님. 꺼내주신 거 정말 감사해요. 제가 뭔가 도울만한 일이 있다면..."/>
+            <ScriptInfo character = "S4" script = "뭐라도 해볼테니까..... 시켜주세요." changeObject = "Shota"/>
+        </Level1>
+        <Level2>
+            <ScriptInfo character = "S0" script = "제가 뭔가 도울만한 일이 있을까요?"/>
+        </Level2>
+    </Map212>
+    <Map213>
+        <Level0>
+            <ScriptInfo character = "A1" script = "천장을 뚫고 무언가 내려와 있어."/>
+            <ScriptInfo character = "A1" script = "콘센트...처럼 생겼는데. 왜 이런 게 여기에 있는 걸까..."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "'순환 케이블'을 콘센트에 꽂았다." removeItem = "7"/>
+            <ScriptInfo character = "A0" script = ".........!!"/>
+            <ScriptInfo character = "A1" script = "천장에 달려있는 게...... 눈을 떴어. 섬뜩해..." changeObject = "Eyes"/>
+            <ScriptInfo character = "M4" script = "오. 셔터가 열렸군." changeObject = "Shutter"/>
+        </Level1>
+    </Map213>
+    <!-- Map 3 -->
+    <Map30>
+        <Level0>
+            <ScriptInfo character = "A1" script = "여기도 셔터로 막혀 있어......"/>
+            <ScriptInfo character = "A1" script = "하아...... 끝이 없네. 이건 어떻게 열어야 하지?"/>
+            <ScriptInfo character = "U0" script = "........."/>
+            <ScriptInfo character = "A1" script = "옆 쪽에 비밀번호를 입력하는 장치가 있는 것 같긴 한데..."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "철제 셔터가 올라가 있다." gameEvent = "Move2"/>
+            <ScriptInfo character = "A1" script = "......!! 드디어 탈출인가?"/>
+        </Level1>
+    </Map30>
+    <Map31>
+        <Level0>
+            <ScriptInfo character = "A1" script = "이게 뭐지?"/>
+            <ScriptInfo character = "N" script = "도어락이다." gameEvent = "PopUp0"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "A1" script = "......풀었어!"/>
+            <ScriptInfo character = "N" script = "도어락 잠금을 해제했다." changeObject = "Door"/>
+        </Level1>
+    </Map31>
+    <Map32> <!-- Pot 0 -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "화분이야. 오른쪽 화분이랑 같은 식물이네......"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "식물을 다듬었다."/>
+            <ScriptInfo character = "N" script = "동글동글한 형태다."/>
+        </Level1>
+    </Map32>
+    <Map33> <!-- Pot 1 -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "화분이야. 왼쪽 화분이랑 같은 식물이네......"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "식물을 다듬었다."/>
+            <ScriptInfo character = "N" script = "동글동글한 형태다."/>
+        </Level1>
+        <Level2>
+            <ScriptInfo character = "N" script = "식물을 다듬었다."/>
+            <ScriptInfo character = "N" script = "날카로운 형태다."/>
+            <ScriptInfo character = "N" script = "화분에서 무언가 떨어졌다."/>
+            <ScriptInfo character = "A1" script = "응...? 이게 뭐지? 이건...... 열쇠잖아!"/>
+            <ScriptInfo character = "A1" script = "어디에 쓰는 열쇠일까..."/>
+            <ScriptInfo character = "N" script = "'열쇠'를 획득했다." addItem = "6"/>
+        </Level2>
+    </Map33>
+    <Map34>
+        <Level0>
+            <ScriptInfo character = "A1" script = "그림이 붙어 있어. 화분을 그린 것 같아."/>
+            <ScriptInfo character = "A1" script = "문 앞에 있는 화분 두 개랑 비슷하게 생겼네. 뭘까......"/>
+        </Level0>
+    </Map34>
+    <Map35> <!-- Uncle -->
+        <Level0>
+        </Level0>
+    </Map35>
+    <!-- Map 4 -->
+    <Map40> <!-- Door -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "역시 또 문이 있어. 놀라울 것도 없지."/>
+            <ScriptInfo character = "A1" script = "여긴 어떻게 열어야 하려나......"/>
+            <ScriptInfo character = "A0" script = "......?!"/>
+            <ScriptInfo character = "N" script = "자물쇠가 있다."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "자물쇠를 풀었다."/>
+            <ScriptInfo character = "A1" script = "........."/>
+            <ScriptInfo character = "A1" script = "이번에야말로...... 탈출?"/>
+        </Level1>
+    </Map40>
+    <Map41> <!-- BookShelf -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "이 책장은......"/>
+        </Level0>
+    </Map41>
+    <Map42> <!-- Poster1 -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "처음 방에서 봤던 것과 같은 얼굴 포스터야..."/>
+            <ScriptInfo character = "A1" script = "실제 사람처럼 정교해...... 그래서 기분 나빠."/>
+        </Level0>
+    </Map42>
+    <Map43> <!-- Poster2 -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "여기도 포스터네......"/>
+            <ScriptInfo character = "A1" script = "........."/>
+            <ScriptInfo character = "N" script = "포스터를 자세히 들여다보았다."/>
+            <ScriptInfo character = "A1" script = "으윽...... 날 뚫어져라 쳐다보는 것 같아. 속이 울렁거려."/>
+        </Level0>
+    </Map43>
+    <Map44> <!-- Telephone -->
+        <Level0>
+            <ScriptInfo character = "N" script = "전화기가 있다."/>
+            <ScriptInfo character = "A1" script = "이거라면...... 외부와 연락할 수 있을지도 몰라."/>
+            <ScriptInfo character = "A1" script = "그래. 여기가 어딘지는 모르겠지만, 사람들이 갇혀있다고, 구해달라고......"/>
+            <ScriptInfo character = "A1" script = "그렇게 말하는 거야."/>
+            <ScriptInfo character = "A1" script = "...그런데 어디에 전화해야 하지? 기억나는 번호가 없는데."/>
+            <ScriptInfo character = "A1" script = "일단 아무 번호나 눌러보자."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "A1" script = "......!!"/>
+            <ScriptInfo character = "A1" script = "신호가 갔어...... 얼마 못 가 끊어졌지만..."/>
+            <ScriptInfo character = "A1" script = "그런데 인형 하나가...... 어디로 간 거지?" changeObject = "0Doll2"/>
+            <ScriptInfo character = "N" script = "노란색 인형이 사라졌다."/>
+        </Level1>
+    </Map44>
+    <Map45> <!-- Doll1 -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "인형이 있어. 손을 내밀고 있네."/>
+            <ScriptInfo character = "A1" script = "불쌍해라........."/>
+            <ScriptInfo character = "A1" script = "무언가를 원하고 있는 것 같은데... 찾아주고 싶어."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "인형의 손이 '뇌'를 강하게 움켜쥔다." removeItem = "10"/>
+            <ScriptInfo character = "A0" script = "까야아아아아아악!"/>
+            <ScriptInfo character = "A1" script = "깜짝이야! 네가 원했던 게 이거였구나. 말을 하지."/>
+            <ScriptInfo character = "N" script = "손을 내민 인형이 사라졌다." changeObject = "0Doll1"/>
+        </Level1>
+        <Level2>
+        </Level2>
+    </Map45>
+    <Map46> <!-- Doll2 -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "노란색 인형... 귀여워라."/>
+            <ScriptInfo character = "A1" script = "너는 왜 여기 있는 거니......? 응?"/>
+            <ScriptInfo character = "N" script = "...전......화......를 찾...아"/>
+            <ScriptInfo character = "A1" script = "......뭐지? 인형... 네가 말한 거야?"/>
+            <ScriptInfo character = "A1" script = "내 착각인가? 전화를 찾으라니, 그게 무슨 뜻이람."/>
+        </Level0>
+        <Level1>
+        </Level1>
+    </Map46>
+    <Map47> <!-- Doll3 -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "귀여운 인형! 이 아이는 목을 매달고 있구나."/>
+            <ScriptInfo character = "A1" script = "............흐음."/>
+            <ScriptInfo character = "A1" script = "조금...... 불편해 보이는데."/>
+            <ScriptInfo character = "A1" script = "어쩌면 내가 이 가여운 아이를 더 편하게 해줄 수 있을지도 몰라."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "밧줄로 인형의 목을 단단히 졸랐다." removeItem = "11"/>
+            <ScriptInfo character = "A1" script = "끄응........."/>
+            <ScriptInfo character = "A1" script = "............"/>
+            <ScriptInfo character = "A1" script = "후우! 목을 조른다는 게 쉬운 일은 아니구나."/>
+            <ScriptInfo character = "A1" script = "이제 안심이야...... 이 아이도 더 편해졌을테지."/>
+            <ScriptInfo character = "N" script = "목을 멘 인형이 사라졌다." changeObject = "0Doll3"/>
+        </Level1>
+        <Level2>
+        </Level2>
+    </Map47>
+    <Map48> <!-- Doll4 -->
+        <Level0>
+            <ScriptInfo character = "A1" script = "이 아이는...... 이런, 솜이 다 터져 나왔구나."/>
+            <ScriptInfo character = "A1" script = "아프겠어. 어떻게 하지..."/> 
+            <ScriptInfo character = "A0" script = ".........우선 안쪽을 뒤져보자."/>
+            <ScriptInfo character = "N" script = "터진 솜 사이로 손을 넣자 무언가 따뜻하고 물컹한 것이 만져진다."/>
+            <ScriptInfo character = "A0" script = "이건......"/>
+            <ScriptInfo character = "N" script = "'뇌?'를 획득했다." addItem = "10"/>
+            <ScriptInfo character = "N" script = "인형이 사라졌다." changeObject = "0Doll4"/>
+        </Level0>
+        <Level1>
+        </Level1>
+    </Map48>
+    <Map49> <!-- Rope1 -->
+        <Level0>
+            <ScriptInfo character = "N" script = "평범한 밧줄이다."/>
+        </Level0>
+    </Map49>
+    <Map410> <!-- Rope2 -->
+        <Level0>
+            <ScriptInfo character = "N" script = "평범한 밧줄이다."/>
+        </Level0>
+    </Map410>
+    <Map411> <!-- Rope3 -->
+        <Level0>
+            <ScriptInfo character = "N" script = "평범한 밧줄이다."/>
+            <ScriptInfo character = "A1" script = "......!! 이 밧줄은 조금만 건드려도 끊어질 것 같은데."/>
+            <ScriptInfo character = "N" script = "손을 뻗어 툭 치자 밧줄이 바닥으로 떨어졌다."/>
+            <ScriptInfo character = "A1" script = "역시!"/>
+            <ScriptInfo character = "N" script = "'밧줄'을 획득했다." addItem = "11" changeObject = "0Rope3"/>
+        </Level0>
+        <Level1>
+        </Level1>
+    </Map411>
+    <!-- Character -->
+    <Char0> <!-- Man -->
+        <Case0>
+            <ScriptInfo character = "M0" script = "이게 뭐야...... 오! 해석할 수 있겠어."/>
+            <ScriptInfo character = "N" script = "'첫 번째 일지'를 해석했다." removeItem = "5" gameEvent = "Diary0"/>
+        </Case0>
+        <Case1>
+            <ScriptInfo character = "M0" script = "이걸 해석해달라고?"/>
+            <ScriptInfo character = "M0" script = "흠... 흠... 이해되네. 이런 내용이구나."/>
+            <ScriptInfo character = "N" script = "'두 번째 일지'를 해석했다." removeItem = "9" gameEvent = "Diary1"/>
+        </Case1>
+    </Char0>
+    <Char1> <!-- Woman -->
+    </Char1>
+    <Char2> <!-- Shota -->
+    </Char2>
+    <Char3> <!-- Uncle -->
+    </Char3>
+    <!-- Event -->
+    <Event0>
+        <ScriptInfo character = "N" script = "우측 상단에 '일지' 버튼이 추가되었다. 클릭하여 해석된 일지를 확인할 수 있다."/>
+    </Event0>
+    <Event10>
+        <ScriptInfo character = "N" script = "우측 상단의 화살표로 맵2로 이동할 수 있게 되었다."/>
+    </Event10>
+    <Event11>
+        <ScriptInfo character = "N" script = "우측 상단의 화살표로 맵3으로 이동할 수 있게 되었다."/>
+    </Event11>
+    <Event12>
+        <ScriptInfo character = "N" script = "우측 상단의 화살표로 맵4로 이동할 수 있게 되었다."/>
+    </Event12>
+</root>

@@ -1,0 +1,282 @@
+<?xml version = "1.0" encoding = "utf-8" standalone = "yes"?> <!-- addItem, removeItem -->
+<root>
+    <Default>
+        <ScriptInfo character = "N" script = "You've already looked into it."/>
+    </Default>
+    <!-- Map 1 -->
+    <Map10>
+        <Level0>
+            <ScriptInfo character = "A1" script = "It's an old air conditioner. If I turn it on, I'll breathe in dust, dangerously."/>
+            <ScriptInfo character = "A1" script = "Well... I can't see the remote control. The drain hose is ragged, too."/>
+            <ScriptInfo character = "A1" script = "If there's anything sharp, this hose... could be cut off"/>
+            <ScriptInfo character = "A1" script = "By the way, something strange seems to flow through the drain hose..."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "Red liquid flows out of the cut air conditioner hose."/>
+            <ScriptInfo character = "A1" script = "What's this? Blood?"/>
+            <ScriptInfo character = "A1" script = "Where is it coming from? Ugh..."/>
+        </Level1>
+        <Level2>
+            <ScriptInfo character = "N" script = "You got 'Paper Ball.'" addItem = "3" removeItem = "1"/>
+        </Level2>
+    </Map10> 
+    <Map11>
+        <Level0>
+            <ScriptInfo character = "N" script = "It's a door with a keyhole."/>
+            <ScriptInfo character = "N" script = "It's locked tight. You can't open it no matter what you do."/>
+            <ScriptInfo character = "A1" script = "I'm stuck. Hurry up and get out of here......"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "'Key' hit the door perfectly." removeItem = "6" gameEvent = "Move"/>
+        </Level1>
+    </Map11>
+    <Map12>
+        <Level0>
+            <ScriptInfo character = "A1" script = "It's a cute puppy poster."/>
+            <ScriptInfo character = "A1" script = "So cute..."/>
+            <ScriptInfo character = "A1" script = "And I can see a tear on the edge."/>
+            <ScriptInfo character = "N" script = "The poster is fixed tightly to the wall."/>
+            <ScriptInfo character = "A1" script = "Ugh, the pain in my arm..."/>
+            <ScriptInfo character = "A1" script = "If I have something sharp, I can rip it off easily."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "Something fell off the back of the cut poster."/>
+            <ScriptInfo character = "A1" script = "Paper...? It's so folded. Should I open it..."/>
+            <ScriptInfo character = "N" script = "You got 'Pink Paper.'" addItem = "1"/>
+            <ScriptInfo character = "A1" script = "I think there's still more behind the poster."/>
+        </Level1>
+        <Level2>
+            <ScriptInfo character = "N" script = "When the poster was completely torn off, the face appeared."/>
+            <ScriptInfo character = "A0" script = "Ugh... Ahhhhhhhhhhhhhh!"/>
+            <ScriptInfo character = "A1" script = "A person? Is it a person...?"/>
+            <ScriptInfo character = "A1" script = "It can't be. Then, a picture...? Why is it on the wall...?"/>
+            <ScriptInfo character = "A1" script = "It's pretty sophisticated... Ugh. I feel sick..."/>
+        </Level2>
+        <Level3>
+            <ScriptInfo character = "N" script = "When You handed 'Candy?' to the face on the wall, it spat something out." removeItem = "4"/>
+            <ScriptInfo character = "A1" script = "This is...!"/>
+            <ScriptInfo character = "N" script = "You got 'Key.'" addItem = "6"/>
+        </Level3>
+    </Map12>
+    <Map13>
+        <Level0>
+            <ScriptInfo character = "A1" script = "Slippers are placed. Huh...?"/>
+            <ScriptInfo character = "A1" script = "I think there's a crack on the side of it... Huh?"/>
+            <ScriptInfo character = "A1" script = "I can feel the thin, cold metal... What is this?"/>
+            <ScriptInfo character = "N" script = "You got 'Card.'" addItem = "2"/>
+        </Level0>
+    </Map13>
+    <Map14>
+        <Level0>
+            <ScriptInfo character = "A1" script = "They are nails... It's dangerous if I go close."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "One of the nails with 'Paper Ball' slipped loose from the wall." removeItem = "3"/>
+            <ScriptInfo character = "N" script = "You got 'Candy?'" addItem = "4"/>
+        </Level1>
+    </Map14>
+    <Map15>
+        <Level0>
+            <ScriptInfo character = "N" script = "It's a soft bed."/>
+            <ScriptInfo character = "A1" script = "Anyway, it looks comfortable. Should I lie down for a while..."/>
+            <ScriptInfo character = "A1" script = "....this is not the time to do that."/>
+            <ScriptInfo character = "A1" script = "By the way, the blanket is thick. What's inside?"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "You can feel something between the cotton wool of the quilt."/>
+            <ScriptInfo character = "A1" script = "What's this?"/>
+            <ScriptInfo character = "N" script = "You got 'Diary1.'" addItem = "5"/>
+        </Level1>
+    </Map15>
+    <Map16>
+        <Level0>
+            <ScriptInfo character = "A1" script = "It's a window. But I can't see anything outside."/>
+            <ScriptInfo character = "A1" script = "Yeah! Why didn't I think of this? I'm calling for help."/>
+            <ScriptInfo character = "A0" script = "Hey! There's no one there! Help! We're stuck here!"/>
+            <ScriptInfo character = "N" script = "......"/>
+            <ScriptInfo character = "N" script = "You shouted for a long time, but nothing changed."/>
+            <ScriptInfo character = "A0" script = "...I knew it."/>
+        </Level0>
+    </Map16>
+    <Map17>
+        <Level0>
+            <ScriptInfo character = "A1" script = "This looks... useful."/>
+            <ScriptInfo character = "N" script = "You got 'Scissors.'" addItem = "0"/>
+        </Level0>
+    </Map17>
+    <!-- Map 2 -->
+    <Map20>
+        <Level0>
+            <ScriptInfo character = "N" script = "The translucent shutter is down."/>
+            <ScriptInfo character = "N" script = "The space beyond the shutter is faintly visible."/>
+            <ScriptInfo character = "M0" script = "Hey, didn't you hear me? We're stuck here."/>
+            <ScriptInfo character = "M0" script = "It's better not to mess around. You can't open it with your strength anyway."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "The shutter went up with a roar." gameEvent = "Move"/>
+        </Level1>
+    </Map20>
+    <Map21>
+        <Level0>
+            <ScriptInfo character = "A1" script = "It's a red door with the number 1 written on it."/>
+            <ScriptInfo character = "A1" script = "There's a poster of a princess on it. It was my favorite..."/>
+            <ScriptInfo character = "W3" script = "Hey, who's out there? Can't you get me out of here..."/>
+            <ScriptInfo character = "W3" script = "I know you have the key..."/>
+            <ScriptInfo character = "A1" script = "...! There's someone inside."/>
+        </Level0>
+    </Map21>
+    <Map22>
+        <Level0>
+            <ScriptInfo character = "A1" script = "It's a red door with the number 2 written on it."/>
+            <ScriptInfo character = "A1" script = "There's a big 'X' on it. What does it mean...?"/>
+            <ScriptInfo character = "N" script = "The door didn't open."/>
+            <ScriptInfo character = "M0" script = "Look, there's no one in the room."/>
+            <ScriptInfo character = "A1" script = "I think it's quiet inside the room. Is there really no one there, as he says..."/>
+        </Level0>
+    </Map22>
+    <Map23>
+        <Level0>
+            <ScriptInfo character = "A1" script = "It's a red door with the number 3 written on it."/>
+            <ScriptInfo character = "S3" script = "Hey! Someone outside... Please get me out!!"/>
+            <ScriptInfo character = "A1" script = "......!! There's a person inside."/>
+            <ScriptInfo character = "M0" script = "You're not gonna get him out, are you? Hehe..."/>
+            <ScriptInfo character = "A1" script = "I think I can't open the door because of that purple chair... What should I do?"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "A0" script = "Open it again. It will open now."/>
+            <ScriptInfo character = "N" script = "Someone came out through the open door." changeObject = "Shota"/>
+        </Level1>
+    </Map23>
+    <Map24>
+        <Level0>
+            <ScriptInfo character = "A1" script = "It's a red door with the number 4 written on it."/>
+            <ScriptInfo character = "M0" script = "Excuse me. I'm sorry, but you can't enter here."/>
+            <ScriptInfo character = "A0" script = "Is that the space you were in?"/>
+            <ScriptInfo character = "M4" script = "......Well."/>
+        </Level0>
+    </Map24>
+    <Map25>
+        <Level0>
+            <ScriptInfo character = "A1" script = "It's a purple stuffed doll. Cute..."/>
+            <ScriptInfo character = "A1" script = "But its stomach is bursting. I feel sorry for you. You look sick..."/>
+            <ScriptInfo character = "M3" script = "Ugh. You... You're not gonna touch it, are you?"/>
+            <ScriptInfo character = "A0" script = "........."/>
+            <ScriptInfo character = "N" script = "When you put your hand through the burst cotton, you can feel something cold and hard."/>
+            <ScriptInfo character = "A0" script = "Huh? What's this...?"/>
+            <ScriptInfo character = "N" script = "You got 'Circle Cable.'" addItem = "7"/>
+            <ScriptInfo character = "M2" script = "........."/>
+        </Level0>
+    </Map25>
+    <Map26>
+        <Level0>
+            <ScriptInfo character = "N" script = "There are two mysterious lumps hanging from the ceiling."/>
+            <ScriptInfo character = "A1" script = "....what are these?"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "The eyes on the ceiling are staring at you."/>
+        </Level1>
+    </Map26>
+    <Map27>
+        <Level0>
+            <ScriptInfo character = "N" script = "There is a long sign attached."/>
+            <ScriptInfo character = "A1" script = "I think it's a letter. I can't read it. What does it mean..."/>
+        </Level0>
+    </Map27>
+    <Map28>
+        <Level0>
+            <ScriptInfo character = "A1" script = "There's a vent. But I don't know if the air is circulating well..."/>
+            <ScriptInfo character = "N" script = "You raised your tiptoe, but you couldn't reach the vent."/>
+        </Level0>
+    </Map28>
+    <Map29>
+        <Level0>
+            <ScriptInfo character = "N" script = "You knocked down the chair." changeObject = "Door3"/>
+        </Level0>
+    </Map29>
+    <Map210> <!-- Man -->
+        <Level0> 
+            <ScriptInfo character = "M0" script = "Isn't it creepy when something like that is written on the wall?"/>
+            <ScriptInfo character = "A0" script = "Something like that?"/>
+            <ScriptInfo character = "M0" script = "It says, 'Help me'. I don't know who wrote it... but it's obvious."/>
+            <ScriptInfo character = "A1" script = "What do you mean 'it's obvious?'"/>
+            <ScriptInfo character = "A0" script = "I don't think it's 'Help me' at all. It's the same character that's used, but..."/>
+            <ScriptInfo character = "M4" script = "I thought you're clever, but you're pretty stupid in this area... Oh, no. Yeah. I'll explain."/>
+            <ScriptInfo character = "M0" script = "It's simpler than you thought. The end is to pull the vowels one by one."/>
+            <ScriptInfo character = "A0" script = "........."/>
+            <ScriptInfo character = "M0" script = "There was a time when I exchanged letters with someone like that."/>
+            <ScriptInfo character = "M3" script = "Like that... I made my own password by changing the order of letters. Of course, more complicated."/>
+            <ScriptInfo character = "M0" script = "You know, it's kind of like that here. If you don't create a password, you'll have a problem."/>
+            <ScriptInfo character = "A0" script = "You sound like you know well about this place......"/>
+            <ScriptInfo character = "M0" script = "That's for sure. To have a room on this floor means..."/>
+            <ScriptInfo character = "A0" script = "......?"/>
+            <ScriptInfo character = "M3" script = "Don't you happen to know where we are?"/>
+            <ScriptInfo character = "N" script = "You explained your situation to him for a while."/>
+            <ScriptInfo character = "M0" script = "....This is amazing."/>
+            <ScriptInfo character = "M4" script = "I can't believe you lost all your memories in this situation. Haha!"/>
+            <ScriptInfo character = "M0" script = "It's fun, you're really fun..."/>
+            <ScriptInfo character = "A0" script = "So where are we? Why are we... trapped here?"/>
+            <ScriptInfo character = "M0" script = "Haha... You'd better not know that. Let's just focus on escaping for now."/>
+            <ScriptInfo character = "M4" script = "It's not too late to know the truth after that."/>
+            <ScriptInfo character = "M0" script = "Well... Anyway, if you find something hard to read, show me."/>
+            <ScriptInfo character = "M4" script = "Maybe it's the password I used. If so, I'll interpret it for you." changeObject = "Man"/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "M4" script = "What's going on?"/>
+        </Level1>
+    </Map210>
+    <Map211> <!-- Woman -->
+        <Level0>
+        </Level0>
+    </Map211>
+    <Map212> <!-- Shota -->
+        <Level0>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "S0" script = "You...... You're..."/>
+            <ScriptInfo character = "S0" script = "My hero, right? You're the one who got me out of here, right?"/>
+            <ScriptInfo character = "S1" script = "I thought I was going to die stuck. Thank you so much... Thank you."/>
+            <ScriptInfo character = "A0" script = "No, I just moved the chair..."/>
+            <ScriptInfo character = "A1" script = "And it's the same thing that we're trapped now anyway..."/>
+            <ScriptInfo character = "S3" script = "I mean, the chair. I've been here a long time, but he..."/>
+            <ScriptInfo character = "S2" script = "He locked me back in my room and blocked the door with a chair."/>
+            <ScriptInfo character = "A1" script = "...Who is he?"/>
+            <ScriptInfo character = "M3" script = "Why are you looking at me?"/>
+            <ScriptInfo character = "A0" script = "Did you lock this person up?"/>
+            <ScriptInfo character = "M4" script = "....unfortunately, no. Well, it's true that I sat on the sidelines."/>
+            <ScriptInfo character = "S2" script = "........."/>
+            <ScriptInfo character = "S0" script = "Anyway, thank you so much for helping me. If there's anything I can do to support..."/>
+            <ScriptInfo character = "S4" script = "I'll do anything... Please let me do it." changeObject = "Shota"/>
+        </Level1>
+        <Level2>
+            <ScriptInfo character = "S0" script = "Is there anything I can do?"/>
+        </Level2>
+    </Map212>
+    <Map213>
+        <Level0>
+            <ScriptInfo character = "A1" script = "Something's coming down through the ceiling."/>
+            <ScriptInfo character = "A1" script = "It looks like an outlet. Why is this here..."/>
+        </Level0>
+        <Level1>
+            <ScriptInfo character = "N" script = "You plugged 'Circle Cable' into the outlet." removeItem = "7"/>
+            <ScriptInfo character = "A0" script = ".........!!"/>
+            <ScriptInfo character = "A1" script = "The thing hanging from the ceiling... opened eyes. It's creepy..." changeObject = "Eyes"/>
+            <ScriptInfo character = "M4" script = "Oh. The shutter is open." changeObject = "Shutter"/>
+        </Level1>
+    </Map213>
+    <Char0>
+        <Case0>
+            <ScriptInfo character = "M0" script = "What is this...? Oh! I can interpret it."/>
+            <ScriptInfo character = "N" script = "You got the interpreted 'Diary1.'" removeItem = "5"/>
+        </Case0>
+        <Case1>
+            <ScriptInfo character = "M0" script = "You want me to interpret this?"/>
+            <ScriptInfo character = "M0" script = "Hmm... I get it. That's what it's about."/>
+            <ScriptInfo character = "N" script = "You got the interpreted 'Diary2.'" removeItem = "9"/>
+        </Case1>
+    </Char0>
+    <Char1>
+    </Char1>
+    <Event0>
+        <ScriptInfo character = "N" script = "'Diary' button was added at the top right. You can click to check the interpreted diary."/>
+    </Event0>
+</root>
